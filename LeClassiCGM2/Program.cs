@@ -51,6 +51,8 @@ namespace LeClassiCGM2
             public bool IsAdult { get { return _isAdult; } }
             // public int Premio { get { return _premio; } }
 
+            public decimal PilComune { get { return _pilComune; } set {  _pilComune = value; } }
+
             public Person(
 
                 string Name,
